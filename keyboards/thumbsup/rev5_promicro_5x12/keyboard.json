@@ -1,6 +1,6 @@
 {
     "manufacturer": "Alexander (Sasha) Karmanov",
-    "keyboard_name": "ThumbsUp! v11 RP2040",
+    "keyboard_name": "ThumbsUp! v5 RP2040",
     "maintainer": "u/ak66666",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
@@ -21,9 +21,12 @@
     "url": "",
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x00B1",
+        "pid": "0x0051",
         "vid": "0x5361"
 
+    },
+    "dynamic_keymap": {
+        "layer_count": 10
     },
     "layouts": {
         "LAYOUT_ortho_5x12": {
