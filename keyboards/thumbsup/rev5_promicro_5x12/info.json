@@ -1,7 +1,7 @@
 {
     "manufacturer": "Alexander (Sasha) Karmanov",
-    "keyboard_name": "ThumbsUp! v5 RP2040",
-    "maintainer": "u/ak66666",
+    "keyboard_name": "ThumbsUp! v5 RP2040 VIAL",
+    "maintainer": "ak66666",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
     "features": {
@@ -10,7 +10,7 @@
         "console": false,
         "extrakey": false,
         "mousekey": true,
-        "steno": false,
+        "steno": true,
         "nkro": true
     },
     "matrix_pins": {
@@ -20,13 +20,9 @@
     "processor": "RP2040",
     "url": "",
     "usb": {
-        "device_version": "1.0.0",
+        "device_version": "1.0.1",
         "pid": "0x0051",
         "vid": "0x5361"
-
-    },
-    "dynamic_keymap": {
-        "layer_count": 10
     },
     "layouts": {
         "LAYOUT_ortho_5x12": {
@@ -88,11 +84,11 @@
                 { "matrix": [8, 5], "x": 4, "y": 4 },
                 { "matrix": [8, 4], "x": 5, "y": 4 },
                 { "matrix": [8, 1], "x": 6, "y": 4 },
-                { "matrix": [9, 1], "x": 7, "y": 4 }
+                { "matrix": [9, 1], "x": 7, "y": 4 },
                 { "matrix": [9, 4], "x": 8, "y": 4 },
                 { "matrix": [9, 5], "x": 9, "y": 4 },
                 { "matrix": [9, 3], "x": 10,"y": 4 },
-                { "matrix": [9, 2], "x": 11,"y": 4 },
+                { "matrix": [9, 2], "x": 11,"y": 4 }
             ]
         }
     }
