@@ -50,8 +50,8 @@
 #define CIRQUE_PINNACLE_POSITION_MODE CIRQUE_PINNACLE_ABSOLUTE_MODE
 
 #define I2C_DRIVER I2CD1
-#define I2C1_SDA_PIN GP18
-#define I2C1_SCL_PIN GP19
+#define I2C1_SDA_PIN GP2
+#define I2C1_SCL_PIN GP3 
 
 //from ...\keyboards\bastardkb\dilemma\3x5_2\splinky 
 #undef RP_I2C_USE_I2C1
